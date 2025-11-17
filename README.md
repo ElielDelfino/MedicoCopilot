@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FrontDevClub - Sistema de Consulta Médica com IA
 
 Sistema web para transcrição de áudio e geração de relatórios médicos utilizando OpenAI Whisper e GPT-3.5.
@@ -204,3 +205,6 @@ FrontDevClub/
 
 Este projeto é de uso educacional.
 
+=======
+# MedicoCopilot
+>>>>>>> f847b3d70ebc211c85ed8f6ac3f166aa7c0b95ed
