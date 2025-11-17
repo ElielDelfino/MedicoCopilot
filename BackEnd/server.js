@@ -33,7 +33,7 @@ const upload = multer({
 
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:5173'
+  origin: 'https://medicocopilot-1.onrender.com/'
 }));
 
 // Inicializar OpenAI
