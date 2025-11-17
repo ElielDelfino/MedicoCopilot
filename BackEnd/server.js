@@ -202,8 +202,6 @@ IMPORTANTE: Retorne APENAS um objeto JSON válido, sem markdown, sem código, se
 });
 
 // Rodar o servidor
-app.get("/", (req, res) => {
-  res.send("Servidor rodando!");
+app.listen(3000, () => {
+  console.log('Servidor rodando na porta 3000');
 });
-
-export default app;
