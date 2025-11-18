@@ -174,6 +174,7 @@ FrontDevClub/
 1. **CORS**: O backend está configurado para aceitar requisições apenas de `origin: https://medicocopilot-1.onrender.com `
 2. **Uploads**: Os arquivos de áudio são temporários e são deletados após o processamento
 3. **LocalStorage**: As consultas são salvas no navegador (máximo de 50 consultas)
+4. **EndPointTranscribe**: Está com opção de texto para realizar testes no backend.(ficar mais fácil de configurar a IA) 
 
 ## Troubleshooting
 
