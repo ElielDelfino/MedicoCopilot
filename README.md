@@ -179,7 +179,7 @@ FrontDevClub/
 ## Troubleshooting
 
 ### Erro: "OPENAI_API_KEY is missing or empty"
-- Verifique se o arquivo `.env` existe na pasta `BackEnd/`
+- Verifique se o arquivo `.env` existe na pasta `backend/`
 - Confirme que a chave está correta e sem espaços extras
 
 ### Erro de CORS
