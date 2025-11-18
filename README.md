@@ -34,14 +34,14 @@ cd FrontDevClub
 ### 2. Instale as dependências do Backend
 
 ```bash
-cd BackEnd
+cd backend
 npm install
 ```
 
 ### 3. Instale as dependências do Frontend
 
 ```bash
-cd ../FrontEnd
+cd ../frontend
 npm install
 ```
 
@@ -52,7 +52,7 @@ npm install
 1. Crie um arquivo `.env` na pasta `BackEnd/`:
 
 ```bash
-cd BackEnd
+cd backend
 touch .env
 ```
 
@@ -64,7 +64,7 @@ OPENAI_API_KEY=sua-chave-api-aqui
 
 ### Frontend 
 
-Se o backend estiver em um servidor diferente do `localhost:3000`, crie um arquivo `.env` na pasta `FrontEnd/`:
+Se o backend estiver em um servidor diferente do `localhost:3000`, crie um arquivo `.env` na pasta `frontend/`:
 
 Adicione:
 
@@ -77,7 +77,7 @@ VITE_API_URL=http://seu-backend.com
 ### Backend
 
 ```bash
-cd BackEnd
+cd backend
 npm start
 # ou
 node server.js
@@ -90,7 +90,7 @@ O servidor estará rodando em: **https://medicocopilot-a4im.onrender.com**
 Em um novo terminal:
 
 ```bash
-cd FrontEnd
+cd frontend
 npm run dev
 ```
 
@@ -140,13 +140,13 @@ Gera relatório médico baseado na transcrição.
 
 ```
 FrontDevClub/
-├── BackEnd/
+├── backend/
 │   ├── server.js          # Servidor Express
 │   ├── package.json
 │   ├── .env              # Variáveis de ambiente (criar)
 │   └── uploads/           # Arquivos temporários de áudio
 │
-└── FrontEnd/
+└── frontend/
     ├── src/
     │   ├── pages/
     │   │   └── Home/      # Página principal
