@@ -136,39 +136,6 @@ Gera relatório médico baseado na transcrição.
 }
 ```
 
-## Estrutura do Projeto
-
-```
-FrontDevClub/
-├── backend/
-│   ├── server.js          # Servidor Express
-│   ├── package.json
-│   ├── .env              # Variáveis de ambiente (criar)
-│   └── uploads/           # Arquivos temporários de áudio
-│
-└── frontend/
-    ├── src/
-    │   ├── pages/
-    │   │   └── Home/      # Página principal
-    │   ├── services/
-    │   │   └── api.ts     # Configuração do Axios
-    │   ├── assets/
-    │   │   └── icons/     # Ícones SVG
-    │   └── main.tsx       # Entry point
-    ├── package.json
-    └── .env              # Variáveis de ambiente (opcional)
-```
-
-## Scripts Disponíveis
-
-### Backend
-- `npm start` ou `node server.js` - Inicia o servidor
-
-### Frontend
-- `npm run dev` - Inicia servidor de desenvolvimento
-- `npm run build` - Gera build de produção
-- `npm run preview` - Preview do build de produção
-
 ## Notas Importantes
 
 1. **CORS**: O backend está configurado para aceitar requisições apenas de `origin: https://medicocopilot-1.onrender.com `
