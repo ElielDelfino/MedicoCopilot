@@ -171,10 +171,9 @@ FrontDevClub/
 
 ## Notas Importantes
 
-1. **Chave da API OpenAI**: Mantenha sua chave segura e nunca commite o arquivo `.env` no Git
-2. **CORS**: O backend está configurado para aceitar requisições apenas de `origin: https://medicocopilot-1.onrender.com `
-3. **Uploads**: Os arquivos de áudio são temporários e são deletados após o processamento
-4. **LocalStorage**: As consultas são salvas no navegador (máximo de 50 consultas)
+1. **CORS**: O backend está configurado para aceitar requisições apenas de `origin: https://medicocopilot-1.onrender.com `
+2. **Uploads**: Os arquivos de áudio são temporários e são deletados após o processamento
+3. **LocalStorage**: As consultas são salvas no navegador (máximo de 50 consultas)
 
 ## Troubleshooting
 
