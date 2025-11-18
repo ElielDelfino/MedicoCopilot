@@ -496,14 +496,14 @@ function Home() {
 
       {/* Formulário: Transcrição de Áudio */}
       <form id="formTranscricao">
-        <h2>Transcrição de Áudio</h2>
+        <h2>Consulta Médica</h2>
 
         <div className="form-group">
-          <label htmlFor="transcricaoTexto">Transcrição</label>
+          <label htmlFor="transcricaoTexto">Contexto do Paciente</label>
           <textarea
             id="transcricaoTexto"
             name="transcricao"
-            placeholder="A transcrição do áudio aparecerá aqui..."
+            placeholder="Informações clinicas do paciente: medicamentos, prontuários anteriores ou exames. Isso ajuda a fornecer um relatório mais completo"
             readOnly
             value={transcricao}
           />
