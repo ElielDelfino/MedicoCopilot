@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FrontDevClub - Sistema de Consulta Médica com IA
 
 Sistema web para transcrição de áudio e geração de relatórios médicos utilizando OpenAI Whisper e GPT-3.5.
@@ -63,25 +62,14 @@ touch .env
 OPENAI_API_KEY=sua-chave-api-aqui
 ```
 
-**Como obter a chave:**
-- Acesse: https://platform.openai.com/api-keys
-- Faça login ou crie uma conta
-- Clique em "Create new secret key"
-- Copie a chave e cole no arquivo `.env`
-
-### Frontend (Opcional)
+### Frontend 
 
 Se o backend estiver em um servidor diferente do `localhost:3000`, crie um arquivo `.env` na pasta `FrontEnd/`:
-
-```bash
-cd FrontEnd
-touch .env
-```
 
 Adicione:
 
 ```env
-VITE_API_URL=http://localhost:3000
+VITE_API_URL=http://seu-site.com
 ```
 
 ## Execução
@@ -94,8 +82,8 @@ npm start
 # ou
 node server.js
 ```
-
-O servidor estará rodando em: **http://localhost:3000**
+Caso queira subir localmente, altere o CORS origin para o **http://localhost:5173**
+O servidor estará rodando em: **https://medicocopilot-a4im.onrender.com**
 
 ### Frontend
 
@@ -106,7 +94,8 @@ cd FrontEnd
 npm run dev
 ```
 
-A aplicação estará disponível em: **http://localhost:5173**
+A aplicação estará disponível em: **https://medicocopilot-1.onrender.com**
+Se for Localmente **http://localhost:5173**
 
 ## Endpoints da API
 
@@ -183,7 +172,7 @@ FrontDevClub/
 ## Notas Importantes
 
 1. **Chave da API OpenAI**: Mantenha sua chave segura e nunca commite o arquivo `.env` no Git
-2. **CORS**: O backend está configurado para aceitar requisições apenas de `http://localhost:5173`
+2. **CORS**: O backend está configurado para aceitar requisições apenas de `origin: https://medicocopilot-1.onrender.com `
 3. **Uploads**: Os arquivos de áudio são temporários e são deletados após o processamento
 4. **LocalStorage**: As consultas são salvas no navegador (máximo de 50 consultas)
 
@@ -194,17 +183,11 @@ FrontDevClub/
 - Confirme que a chave está correta e sem espaços extras
 
 ### Erro de CORS
-- Certifique-se de que o frontend está rodando na porta 5173
+- Certifique-se de que o frontend está rodando na porta correta
 - Verifique a configuração de CORS no `server.js`
 
 ### Erro ao transcrever áudio
 - Verifique se o formato do áudio é suportado (WebM, MP3, etc.)
 - Confirme que a chave da API OpenAI está válida e com créditos
 
-## Licença
 
-Este projeto é de uso educacional.
-
-=======
-# MedicoCopilot
->>>>>>> f847b3d70ebc211c85ed8f6ac3f166aa7c0b95ed
