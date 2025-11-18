@@ -69,7 +69,7 @@ Se o backend estiver em um servidor diferente do `localhost:3000`, crie um arqui
 Adicione:
 
 ```env
-VITE_API_URL=http://seu-site.com
+VITE_API_URL=http://seu-backend.com
 ```
 
 ## Execução
