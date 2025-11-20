@@ -157,4 +157,7 @@ Gera relatório médico baseado na transcrição.
 - Verifique se o formato do áudio é suportado (WebM, MP3, etc.)
 - Confirme que a chave da API OpenAI está válida e com créditos
 
+## LICENÇA
+-  Código para fins acâdemicos. 
+
 
