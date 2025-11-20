@@ -82,7 +82,7 @@ npm start
 # ou
 node server.js
 ```
-Caso queira subir localmente, altere o CORS origin para o **http://localhost:5173**
+Caso queira subir localmente, altere o CORS origin para o **http://localhost:[PORT]**
 O servidor estará rodando em: **https://medicocopilot-a4im.onrender.com**
 
 ### Frontend
@@ -95,7 +95,7 @@ npm run dev
 ```
 
 A aplicação estará disponível em: **https://medicocopilot-1.onrender.com**
-Se for Localmente **http://localhost:5173**
+Se for Localmente **http://localhost:[PORT]**
 
 ## Endpoints da API
 
